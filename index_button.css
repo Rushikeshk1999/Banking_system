@@ -1,0 +1,30 @@
+.primary_btn {
+	width: 250px;
+  height:50px;
+  display: inline-block;
+  background: transparent;
+ font-weight:bold;
+  padding: 0px 50px;
+  color: rgb(255, 8, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 48px;
+  border: 5px solid yellow;
+  border-radius: 15px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 300ms linear 0s; }
+  .primary_btn:hover {
+     background:black;
+	 color: red;
+     }
+  .primary_btn.yellow_btn {
+    background: #1900fd !important;
+    border: 1px solid palevioletred !important;
+    color: #000000; }
+    .primary_btn.yellow_btn:hover {
+      background: transparent !important; }
